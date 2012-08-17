@@ -1,0 +1,2 @@
+vhdl work "ipcore_dir/Memory.vhd"
+vhdl work "Memory_Controller.vhd"

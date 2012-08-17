@@ -1,0 +1,8 @@
+work	"ALU.vhd"
+work	"ALU_Control.vhd"
+work	"Control.vhd"
+work	"Memory_Controller.vhd"
+work	"Mux.vhd"
+work	"Register_File.vhd"
+work	"ipcore_dir/Memory.vhd"
+work	"top.vhd"

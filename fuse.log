@@ -1,0 +1,47 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/workspace/MIPS_Micro/testBench_isim_beh.exe -prj C:/workspace/MIPS_Micro/testBench_beh.prj work.testBench 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/workspace/MIPS_Micro/ipcore_dir/Memory.vhd" into library work
+Parsing VHDL file "C:/workspace/MIPS_Micro/Register_File.vhd" into library work
+Parsing VHDL file "C:/workspace/MIPS_Micro/Mux.vhd" into library work
+Parsing VHDL file "C:/workspace/MIPS_Micro/Memory_Controller.vhd" into library work
+Parsing VHDL file "C:/workspace/MIPS_Micro/Control.vhd" into library work
+Parsing VHDL file "C:/workspace/MIPS_Micro/ALU_Control.vhd" into library work
+Parsing VHDL file "C:/workspace/MIPS_Micro/ALU.vhd" into library work
+Parsing VHDL file "C:/workspace/MIPS_Micro/top.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/workspace/MIPS_Micro/top.vhd" Line 207: Actual for formal port datain0 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/workspace/MIPS_Micro/top.vhd" Line 208: Actual for formal port datain1 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/workspace/MIPS_Micro/top.vhd" Line 226: Actual for formal port datain1 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/workspace/MIPS_Micro/top.vhd" Line 227: Actual for formal port selector is neither a static name nor a globally static expression
+Parsing VHDL file "C:/workspace/MIPS_Micro/testBench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity Mux [mux_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity ALU_Control [alu_control_default]
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V6_3_output_stage [\BLK_MEM_GEN_V6_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V6_3_softecc_output_reg_stage [\BLK_MEM_GEN_V6_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V6_3_mem_module [\BLK_MEM_GEN_V6_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V6_3 [\BLK_MEM_GEN_V6_3("blk_mem_gen_v...]
+Compiling architecture memory_a of entity Memory [memory_default]
+Compiling architecture behavioral of entity Memory_Controller [memory_controller_default]
+Compiling architecture behavioral of entity Control [control_default]
+Compiling architecture behavioral of entity Register_File [register_file_default]
+Compiling architecture behavioral of entity top [top_default]
+WARNING:HDLCompiler:1242 - "N:/O.87xd/rtf/vhdl/src/ieee/std_logic_arith.vhd" Line 2479: Warning: "There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es)."
+Compiling architecture behavior of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 32 VHDL Units
+Built simulation executable C:/workspace/MIPS_Micro/testBench_isim_beh.exe
+Fuse Memory Usage: 40848 KB
+Fuse CPU Usage: 1013 ms

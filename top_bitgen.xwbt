@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\workspace\MIPS_Micro\top.ncd
+OUTFILE=C:\workspace\MIPS_Micro\top.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\workspace\MIPS_Micro
+LICENSE=WebPack
+USER_INFO=200714222_0_0_513

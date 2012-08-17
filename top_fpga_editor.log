@@ -1,0 +1,15 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 O.87xd
+#Current Working Directory:
+#:D   C:\workspace\MIPS_Micro
+#Date/Time:
+#:T   Thu Aug 16 01:23:55 2012
+#------------------------------
+	#Reading C:\workspace\MIPS_Micro\top.ncd...
+	#Loading device for application Rf_Device from file '6slx16.nph' in environment C:\Xilinx\13.4\ISE_DS\ISE\.
+	#   "top" is an NCD, version 3.2, device xc6slx16, package csg324, speed -3
+	#Design creation date: 2012.08.16.06.01.40
+	#Building chip graphics...
+	#Loading speed info...

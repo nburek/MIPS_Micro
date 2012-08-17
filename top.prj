@@ -1,0 +1,8 @@
+vhdl work "ipcore_dir/Memory.vhd"
+vhdl work "Register_File.vhd"
+vhdl work "Mux.vhd"
+vhdl work "Memory_Controller.vhd"
+vhdl work "Control.vhd"
+vhdl work "ALU_Control.vhd"
+vhdl work "ALU.vhd"
+vhdl work "top.vhd"
