@@ -1,7 +1,7 @@
 Release 13.4 Drc O.87xd (nt64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
-Fri Aug 17 00:50:07 2012
+Fri Aug 17 01:28:48 2012
 
 drc -z top.ncd top.pcf
 

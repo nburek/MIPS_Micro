@@ -5,16 +5,16 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/workspace/MIPS_Micro/top.vhd" Line 207: Actual for formal port <arg fmt="%s" index="1">datain0</arg> is neither a static name nor a globally static expression
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/workspace/MIPS_Micro/top.vhd" Line 215: Actual for formal port <arg fmt="%s" index="1">datain0</arg> is neither a static name nor a globally static expression
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/workspace/MIPS_Micro/top.vhd" Line 208: Actual for formal port <arg fmt="%s" index="1">datain1</arg> is neither a static name nor a globally static expression
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/workspace/MIPS_Micro/top.vhd" Line 216: Actual for formal port <arg fmt="%s" index="1">datain1</arg> is neither a static name nor a globally static expression
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/workspace/MIPS_Micro/top.vhd" Line 226: Actual for formal port <arg fmt="%s" index="1">datain1</arg> is neither a static name nor a globally static expression
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/workspace/MIPS_Micro/top.vhd" Line 234: Actual for formal port <arg fmt="%s" index="1">datain1</arg> is neither a static name nor a globally static expression
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/workspace/MIPS_Micro/top.vhd" Line 227: Actual for formal port <arg fmt="%s" index="1">selector</arg> is neither a static name nor a globally static expression
+<msg type="warning" file="HDLCompiler" num="946" delta="unknown" >"C:/workspace/MIPS_Micro/top.vhd" Line 235: Actual for formal port <arg fmt="%s" index="1">selector</arg> is neither a static name nor a globally static expression
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1242" delta="unknown" >"N:/O.87xd/rtf/vhdl/src/ieee/std_logic_arith.vhd" Line 2479: <arg fmt="%s" index="1">Warning</arg>: <arg fmt="%s" index="2">&quot;There is an &apos;U&apos;|&apos;X&apos;|&apos;W&apos;|&apos;Z&apos;|&apos;-&apos; in an arithmetic operand, the result will be &apos;X&apos;(es).&quot;</arg>

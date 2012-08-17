@@ -41,15 +41,17 @@ ARCHITECTURE behavior OF testBench IS
  
     COMPONENT top
     PORT(
-         clk : IN  std_logic;
+         clk100MHz : IN  std_logic;
          rst : IN  std_logic;
-         led : OUT  std_logic_vector(7 downto 0)
+         led : OUT  std_logic_vector(7 downto 0);
+			sw	 : in	STD_LOGIC_VECTOR(7 downto 0);
+			btn : in	STD_LOGIC_VECTOR(4 downto 0)
         );
     END COMPONENT;
     
 
    --Inputs
-   signal clk : std_logic := '0';
+   signal clk100MHz : std_logic := '0';
    signal rst : std_logic := '0';
 
  	--Outputs
@@ -62,17 +64,19 @@ BEGIN
  
 	-- Instantiate the Unit Under Test (UUT)
    uut: top PORT MAP (
-          clk => clk,
+          clk100MHz => clk100MHz,
           rst => rst,
-          led => led
+          led => led,
+			 sw => "00000010",
+			 btn => "00010"
         );
 
    -- Clock process definitions
    clk_process :process
    begin
-		clk <= '0';
+		clk100MHz <= '0';
 		wait for clk_period/2;
-		clk <= '1';
+		clk100MHz <= '1';
 		wait for clk_period/2;
    end process;
  

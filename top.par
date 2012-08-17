@@ -1,7 +1,7 @@
 Release 13.4 par O.87xd (nt64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
-ISIS::  Fri Aug 17 00:49:30 2012
+ISIS::  Fri Aug 17 01:28:11 2012
 
 par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
 
@@ -181,7 +181,7 @@ WARNING:Par:283 - There are 10 loadless signals in this design. This design will
 Total REAL time to PAR completion: 23 secs 
 Total CPU time to PAR completion: 23 secs 
 
-Peak Memory Usage:  325 MB
+Peak Memory Usage:  324 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
